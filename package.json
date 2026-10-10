@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "extract": "node scripts/extract-levels.mjs",
+    "test:tar": "node scripts/test-tar-validators.mjs",
     "predev": "npm run extract",
     "dev": "astro dev",
     "start": "astro dev",
